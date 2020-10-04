@@ -13,3 +13,8 @@ network={
     psk="NETWORK-PASSWORD"  
     key_mgmt=WPA-PSK  
 }
+```
+
+to restart wpa_suppilcant without reboot
+
+`wpa_cli -i wlan0 reconfigure`
